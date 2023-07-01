@@ -1,0 +1,1 @@
+console.log("Halo, ini output dari clog!");
