@@ -38,3 +38,20 @@ function validateFormData(handleGetFormData){
         return false;
     }
 }
+
+function submit(){
+    let divWarning = document.getElementById('warning');
+    if(validateFormData(handleGetFormData())==false){
+        divWarning.textContent = '';
+    }else{
+        divWarning.textContent = 'Periksa form anda sekali lagi';
+    }
+
+    return divWarning;
+}
+
+const btnSubmit = document.getElementById('submit-form');
+btnSubmit.addEventListener('click', (event)=>{
+    event.preventDefault();
+    submit();
+})
