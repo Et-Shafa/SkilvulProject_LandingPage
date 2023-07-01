@@ -21,3 +21,12 @@ function isNumber(string){
         return true;
     }
 }
+
+function checkboxIsChecked(){
+    let status = document.getElementById("status");
+    if(status.checked == true){
+        return true;
+    }else{
+        return false;
+    }
+}
