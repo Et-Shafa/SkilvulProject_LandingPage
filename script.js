@@ -14,10 +14,10 @@ function handleGetFormData(){
         };
 }
 
-// function isNumber(string){
-//     if(isNaN(string)){
-//         return false;
-//     }else{
-//         return true;
-//     }
-// }
+function isNumber(string){
+    if(isNaN(string)){
+        return false;
+    }else{
+        return true;
+    }
+}
