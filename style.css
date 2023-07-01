@@ -9,7 +9,7 @@
 font-family: 'Ysabeau Infant', sans-serif; */
 
 
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600&family=Ysabeau+Infant:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600&family=Ysabeau+Infant:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300&display=swap');
 
 header{
     display: inline-block;
@@ -25,4 +25,4 @@ header{
 nav{
     background-color: aliceblue;
     width: fit-content;
-} */
+}
