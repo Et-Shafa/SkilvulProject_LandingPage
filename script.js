@@ -1,1 +1,7 @@
-console.log("Halo, ini output dari clog!");
+// let name = document.getElementById("name");
+// let name = document.getElementById("name");
+// let name = document.getElementById("name");
+// let name = document.getElementById("name");
+// let name = document.getElementById("name");
+
+// function handleGetFormData
