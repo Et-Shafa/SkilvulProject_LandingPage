@@ -30,3 +30,11 @@ function checkboxIsChecked(){
         return false;
     }
 }
+
+function validateFormData(handleGetFormData){
+    if(handleGetFormData !== null && isNumber(handleGetFormData.zipCode) && checkboxIsChecked()){
+        return true;
+    }else{
+        return false;
+    }
+}
