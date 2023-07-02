@@ -42,9 +42,9 @@ function validateFormData(handleGetFormData){
 function submit(){
     let divWarning = document.getElementById('warning');
     if(validateFormData(handleGetFormData())==false){
-        divWarning.textContent = '';
-    }else{
         divWarning.textContent = 'Periksa form anda sekali lagi';
+    }else{
+        divWarning.textContent = '';
     }
 
     return divWarning;

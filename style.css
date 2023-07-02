@@ -11,18 +11,145 @@ font-family: 'Ysabeau Infant', sans-serif; */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600&family=Ysabeau+Infant:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300&display=swap');
 
-header{
-    display: inline-block;
+body{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    /* justify-content: center;
+    align-items: center; */
 }
 
-#title{
-    background-color:#C0DBEA ;
-    width: fit-content;     
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px 0 40px;
+    box-sizing: border-box;
+}
+header a{
+    text-decoration: none;
+}
+
+header a h2{  
     font-family: 'Roboto Mono', monospace;
-    font-weight: 600;
+    font-weight: bold 600;
+    width: max-content;
+    background: -webkit-linear-gradient(45deg,  #E8A0BF, #BA90C6);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 0;
+    -webkit-text-stroke: 1px rgba(104, 104, 104, 0.212);
+    
 }
 
 nav{
-    background-color: aliceblue;
-    width: fit-content;
+    /* background-color: aliceblue; */
+    width: 50%;
+    /* align-items: center; */
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav a{
+    text-decoration: none;
+    margin: 0 5% ;
+    color: black;
+}
+
+header div{
+    display: flex;
+    width: 10%;
+    padding: 0;
+    margin: 0;
+    /* background-color: #E8A0BF; */
+    justify-content: end;
+}
+
+header div button{
+    cursor: pointer;
+    border: 0;
+    background: none;
+    width: 25%;
+    padding: 0;
+    margin: 0 0 0 10%;
+    
+}
+
+header div button img{
+    width: 100%;
+    /* color: #BA90C6; */
+}
+
+#jumbotron{
+    position: relative;
+    margin: 0 20px;
+}
+
+#jumbotron div{
+    /* background-color: #BA90C6; */
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 60px;
+    width: 30%;
+}
+
+#description{
+    background: -webkit-linear-gradient(45deg,  #E8A0BF, #BA90C6, #C0DBEA);-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.212);
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: 500;
+    
+}
+
+#contact{
+    background-color: #ba90c642;
+    width: 80%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+#name{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#city{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#email{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#zip-code{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+footer{
+    width: 100%;
+    background-color: #ba90c6;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    color: white;
+    font-family: 'Ysabeau Infant', sans-serif; 
+    font-weight: bold 400;
+    box-sizing: border-box;
 }

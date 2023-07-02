@@ -15,34 +15,51 @@
 
 <body>
     <header>
-        <p id="title">Treats ‘N Eats</p>
+        <a href="">
+            <h2 id="title">Treats ‘N Eats</h2>
+        </a>
         <nav>
             <a href="">Home</a>
             <a href="">About</a>
             <a href="">Contact</a>
-            <a href="https://skilvul.com" id="link">Skilvul</a> <!-- kasih logo skilvul -->
+            <a href="https://skilvul.com" target="_blank" id="link"><img style="width: 10%;"
+                    src="images/skilvul-logo-black.svg" alt=""></a>
         </nav>
+        <div>
+            <button><img src="images/search.svg" alt=""></button>
+            <button><img src="images/hamburger-button.svg" alt=""></button>
+        </div>
     </header>
 
+    <a href="#title" style="position: fixed; bottom: 10px; right: 10px; padding: 0; cursor: pointer;"><img
+            style="width: 30px;" src="images/up.svg" alt=""></a>
+
     <div id="jumbotron">
-        <p id="description"></p>
-        <img src="images/jumbotron.jpg" alt="" width="100px">
+        <div>
+            <p id="description">Sweets And Love In A Bite.</p>
+        </div>
+        <!-- <p id="description">Sweets And Love In A Bite.</p> -->
+        <img src="images/jumbotronn.png" alt="" width="100%">
 
     </div>
 
+    <div id="contact">
+        <form>
+            <input id="name" type="text" placeholder="Nama">
+            <input id="city" type="text" placeholder="Kabupaten/Kota">
+            <input id="email" type="email" placeholder="Email">
+            <input id="zip-code" type="number" placeholder="Zip Code">
+            <input id="status" type="checkbox">
+            <label id="check" for="">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah
+                sesuai</label>
+            <button id="submit-form">Submit</button>
+            <div id="warning"></div>
+        </form>
+    </div>
 
-    <form>
-        <input id="name" type="text">
-        <input id="city" type="text">
-        <input id="email" type="email">
-        <input id="zip-code" type="number">
-        <input id="status" type="checkbox">
-        <label id="check" for="">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
-        <button id="submit-form">Submit</button>
-        <div id="warning"></div>
-    </form>
 
-    <footer></footer>
+
+    <footer>&copy;EggYolk_Et_Shafa 2023</footer>
 </body>
 
 </html>
