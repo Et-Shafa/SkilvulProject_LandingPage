@@ -150,12 +150,14 @@ form{
 }
 
 #city{
-    width: 49%;
+    width: 70%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border-radius: 5px;
     border: 0;
+    margin-right: 5px;
+
 }
 
 #email{
@@ -168,7 +170,7 @@ form{
 }
 
 #zip-code{
-    width: 49%;
+    width:29%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -176,6 +178,33 @@ form{
     border: 0;
 }
 
+input[type="checkbox"] {
+    accent-color: #ba90c6;
+    width: 25px;
+    height: 25px;
+}
+
+#submit-form{
+    /* background-color: #FDF4F5; */
+    padding: 20px 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #BA90C6;
+
+    transition: all .5s ease;
+    border: 3px solid #BA90C6;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 1;
+    background-color : transparent;
+    outline: none;
+    border-radius: 4px;
+}
+
+#submit-form:hover {
+    color: #BA90C6;
+    background-color: #fff;
+}
 
 footer{
     width: 100%;
