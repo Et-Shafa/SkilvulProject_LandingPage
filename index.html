@@ -31,9 +31,6 @@
         </div>
     </header>
 
-    <a href="#title" style="position: fixed; bottom: 10px; right: 10px; padding: 0; cursor: pointer;"><img
-            style="width: 30px;" src="images/up.svg" alt=""></a>
-
     <div id="jumbotron">
         <div>
             <p id="description">Sweets And Love In A Bite.</p>
@@ -43,15 +40,21 @@
 
     </div>
 
+    <a id="up" href="#title"><img style="width: 35px;" src="images/up.svg" alt=""></a>
+
     <div id="contact">
         <form>
+            <h1 style="text-align: center;">Contact Us</h1>
+            <hr style="border: 1px solid grey; width: 50%;">
             <input id="name" type="text" placeholder="Nama">
-            <input id="city" type="text" placeholder="Kabupaten/Kota">
             <input id="email" type="email" placeholder="Email">
+            <input id="city" type="text" placeholder="Kabupaten/Kota">
             <input id="zip-code" type="number" placeholder="Zip Code">
+            <br>
             <input id="status" type="checkbox">
             <label id="check" for="">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah
                 sesuai</label>
+                <br>
             <button id="submit-form">Submit</button>
             <div id="warning"></div>
         </form>
